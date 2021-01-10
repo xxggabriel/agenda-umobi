@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/agenda', 'Api\\AgendaController@listarAgenda');
+Route::post('/agenda', 'Api\\AgendaController@adicionar');
+Route::post('/agenda/{id}', 'Api\\AgendaController@atualizar');
+Route::get('/agenda/{id}/deletar', 'Api\\AgendaController@deletar');
