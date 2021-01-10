@@ -1,0 +1,113 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #4a4a4a;
+}
+header {
+    background-color: #1f1f28;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid #24dbec 20px;
+}
+
+.header-logo {
+    padding-top: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.header-logo img {
+    width: 100%;
+}
+
+.table-contatos {
+    margin-top: 25px;
+}
+
+.table-contatos button {
+    margin-bottom: 10px;
+}
+
+
+
+.table-dark {
+    background-color: #1f1f28;
+    
+}
+
+.table-dark tr {
+    border: solid #4a4a4a 2px;
+}
+
+a {
+    color: #24dbec;
+    text-decoration: none;
+}
+
+
+tr {
+    vertical-align: middle;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btn {
+    border-radius: 30px;
+    border: 1px solid #4a4a4a;
+    color: #24dbec;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.btn-cadastro {
+    background-color: #212529;
+}
+
+.page-link {
+    background-color: #1f1f28;
+    color: #24dbec;
+}
+
+.page-item {
+    border: #4a4a4a;
+}
+.page-link:hover, .page-link a {
+    background-color: #1f1f28;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.page-link-active {
+    background-color: #FFF;
+    color: #000;
+}
+
+.form-agenda  {
+    margin-top: 30px;
+}
+
+.form-agenda  button{
+    margin-top: 30px;
+}
+
+.form-agenda label, .form-agenda input {
+    margin-bottom: 10px;
+}
+
+.th-tbody {
+    width: 150px;
+    font-weight: bold;
+}
+
+.td-tbody {
+    max-width: 100px;
+}
