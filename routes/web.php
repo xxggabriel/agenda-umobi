@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Site\\AgendaController@index');
+
+Route::get('/cadastro', 'Site\\AgendaController@criar');
+Route::get('/editar/{id}', 'Site\\AgendaController@editar');
+Route::get('/agenda/{id}', 'Site\\AgendaController@agenda');
